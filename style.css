@@ -1,3 +1,8 @@
-body{
-    background: #00000060 !important;
+body {
+  background: #00000060 !important;
+}
+.triggerScroll-boxes {
+  width: 100px;
+  height: 100px;
+  background: #000;
 }
