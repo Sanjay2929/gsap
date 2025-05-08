@@ -7,3 +7,8 @@ gsap.to(".triggerScroll-boxes", {
   y: 100,
   stagger: 0.1, // 0.1 seconds between when each ".box" element starts animating
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var currentYear = new Date().getFullYear();
+  document.getElementById("copyrightYear").textContent = currentYear;
+});
